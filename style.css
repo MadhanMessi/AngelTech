@@ -1,0 +1,467 @@
+
+/* Navbar Section */
+.NavbarSection{
+    background-color: #191F40;
+    /* background-color: #4C5866; */
+    color: white;
+}
+.LogoSection{
+    margin-right: 5rem;
+}
+.dropdown .btn{
+    color: white;
+}
+.dropdown .btn:hover{
+    color: white;
+    opacity: 0.5;
+}
+.container-fluid{
+    width: 90%;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    /* color: white; */
+    border: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    opacity: 0.5;
+    
+}
+.navbar a:hover +.dot{
+  
+  display: inline-block; 
+}
+li a:hover .dot{
+  display: inline-block !important;
+  height: 0.5px;
+    width: 0.5px;
+    background-color: red;
+    border-radius: 50%; 
+}
+.dot{
+    height: 0.5px;
+    width: 0.5px;
+    background-color: transparent;
+    border-radius: 50%; 
+    display: none; 
+  /* display: none; */
+  /* flex-direction: column; */
+  padding: 2px;
+}
+.navbar a:hover{
+    text-decoration: solid;
+    /* background-color: #E5E5E5;; */
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+
+
+.button{
+    border: none;
+  /* color: white; */
+  padding: 0;
+  /* font-size: 16px; */
+  cursor: pointer;
+    border-radius: none;
+    outline: none;
+    background: transparent;
+
+}
+
+/* End of Navbar Section */
+
+
+.TextSection{
+ 
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.BannerLogo img{
+    width: 90%;
+}
+.ButtonSection{
+ 
+  color: white;
+ 
+}
+
+.BannerSection{
+  background-color: #191F40;
+  /* padding: 10rem; */
+  /* height: 100%; */
+    /* width: 100%;
+    height: 100%; */
+   background-image: url("Images/Group.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .BannerSection{
+   
+
+    }
+    .BannerLogo img{
+     width: 100%;
+
+  }
+  .ButtonSection{
+      
+   
+  }
+  .TextSection{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    }
+}
+
+
+
+
+
+
+  
+
+ svg{
+     width: 40%;
+     padding: 0;
+     margin: 0;
+ }
+
+  path {
+    fill: transparent;
+  }
+  
+  text {
+    font-size: 35px;
+    font-family: 'Luckiest Guy', cursive;
+    fill: #FF9800;
+  }
+.classic{
+    margin-left: 17px; 
+}
+.BussinesImage{
+    margin-left: 20px;
+}
+  .Chalenge{
+      background-color: #191F40;
+  }
+
+  .Clearfix{
+    clear: both;
+}
+
+
+.Benefits{
+    background-image: url("Images/bg2\ \(1\).svg");
+    /* background-color: #191F40; */
+    /* background-repeat: no-repeat; */
+         /* background: cover; */
+         /* padding-top: 4rem; */
+         text-align: center;
+         /* height: 100%; */
+        padding: 100px;
+         /* Center and scale the image nicely */
+         /* background-position: center; */
+         background-repeat: no-repeat;
+         background-size: cover;
+       
+    /* color: white; */
+}
+/* .section{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+} */
+@media only screen and (max-width: 768px) {
+    /* .Benefits{
+      height: 100%;
+      padding: 50px 0px 120px 0px;
+    } */
+    .Round1 img{
+          float: left;
+          width: 40%;
+    }
+    .Round2 img{
+        float: right;
+        width: 40%;
+  }
+  .Round3 img{
+    float: left;
+    width: 40%;
+}
+.Clearfix{
+    clear: both;
+}
+
+}
+
+.Chalenge{
+  background-color: #191F40;
+  color:white;
+}
+.Chalenge p{
+text-align: center;
+color:white;
+width: 70%;
+padding: 6px;
+}
+hr{
+text-align: center;
+margin-left: 2px;
+color:white;
+width: 20%;
+
+}
+.TextName{
+text-align: center;
+margin-right: 40px;
+color:#63EAFB;
+font-weight: bold;
+font-size: 20px;
+/* line-height: 29px; */
+margin-bottom: 12px;
+}
+
+
+
+
+/* Footer Section Start */
+.container{
+  width: 90%;
+  padding: 25px;
+  margin: 0px auto;
+}
+.Geeks{
+  background-image: url("Images/bg2\ \(1\).svg");
+       /* height: 100%; */
+       /* background-position: center;
+        background-repeat: no-repeat;
+       /*background-size: cover;*/
+       background-repeat: no-repeat;
+}
+  .RoundChart img{
+        margin-top:150px;
+        margin-left: 70px;
+  }
+.CardClass{
+  margin-top: 120px;
+  border: 2px solid rgb(243, 241, 241);
+  box-shadow: 10px 10px 5px #cccccc;
+  border-width: 2px;
+  border-radius:10px;
+}
+.CardImage{
+float:left;
+margin: 25px;
+height:80px;
+width:90px;
+}
+.TextColor{
+  color:#4C5866;
+  font-size: 25px;
+  font-weight:50px;
+text-align: center;
+}
+.CardText{
+  text-align: justify;
+  color:black;
+}
+.CardTextDesign{
+  color:#C4C4C4;
+  text-decoration: none;
+}
+/* Footer Upper Section End */
+footer{
+  bottom: 0px;
+  width: 100%;
+}
+.Column1 {
+background: url('images/map3.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size:500px;
+border-radius: 15px;
+margin-top: 25px;
+color:white;
+  }
+.image{
+  height: 200px;
+}
+.Content{
+  padding:0px 30px;
+}
+.Fas{
+    line-height: 45px;
+    text-align: center;
+}
+  
+.Content .Text{
+    font-style: normal;
+    font-weight: normal;
+    font-size:18px;    
+    color:white;
+}
+   .Content .Phone{
+    margin: 15px 0;
+  }
+  .Column2bgImage{
+    background-image: url('images/Group\ 117.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:230px;
+  }
+  .Column3{ 
+    padding:25px;
+    border-radius: 20px;
+    color:white;
+    background-image: url('images/formborder.png');
+    background-size: 390px;
+    background-repeat: no-repeat;
+  }
+ 
+  /* Form Input Style*/
+  input[type=text],[type=date], select {
+  width: 95%;
+  padding: 5px;
+  margin: 4px 7px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  }
+  input[type=submit],select{
+    background-image: url('images/Button\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    border-radius: 5px;
+    padding:8px;
+    margin: 15px 67px;
+    width:55%;
+    border:none;
+  }
+ul{
+  float:right;
+  list-style-type:none;
+  }
+  ul li{
+  display:inline-block;
+  padding:5px 10px;
+  }
+  ul li a{
+  text-decoration:none;
+  color:white;
+  
+  }
+  ul li a:hover{
+    text-decoration:none;
+  color:white;
+  }
+
+  .white-grad {
+    background: 
+     linear-gradient(#191F40,#191F40) padding-box,
+     linear-gradient(to right, #3f2afd, #1c7bf8) border-box;
+    color: #313149;
+    padding:10px;
+    border: 3px solid transparent;
+    border-radius:15px;
+    display:inline-block;
+    /* margin: 75px 0; */
+}
+.Marginauto{
+    margin: auto;
+  }
+  .Bottom{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    }
+.Bottom a{
+  text-decoration: none;
+  color:white;
+}
+.Bottom a:hover{
+  text-decoration: none;
+  color:white;
+}
+@media screen and (max-width: 576px) {
+  /* Footer Section Upper */
+  .RoundChart img{
+    /* float: right; */
+    margin-top:70px;
+    margin-left: 0px;
+}
+  /* Footer Section */
+  .Column2bgImage{
+    background-image: url('images/Group\ 117.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100px;
+  }
+  .Content .Text{
+    font-style: normal;
+    font-weight: normal;
+    font-size:12px;    
+}
+
+  .Logo{
+    display:none;
+  }
+  .Column1 {
+    background: url('images/map3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    margin-top: 25px;
+      }
+      input[type=submit],select{
+        background-image: url('images/Button\ \(1\).png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: red;
+        border-radius: 5px;
+        padding:8px;
+        margin: 15px 42px;
+        width:65%;
+        border:none;
+      }
+      img{
+        max-width: 100%;
+      }
+      .Bottom{
+        font-weight: normal;
+        font-size: 12px;
+        margin-left: 90px;
+        line-height: 21px;
+        text-align: center;
+        }
+}
+@media screen and (min-width: 577px) {
+  .LogoImage{
+    display:none;
+  }
+  .ContainerSpace{
+    margin-top:200px;
+  }
+  
+}
+/* FooterSection End */
+.TopSpace{
+  margin-top: 800px;
+}
+
+
+
+
+/* Footer Section End */
