@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'made_evolve_sansregular';
+    src: url('made_evolve_sans_regular_personal_use.woff2') format('woff2'),
+         url('made_evolve_sans_regular_personal_use.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
