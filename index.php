@@ -385,7 +385,7 @@
 									</div>
 									<div class="carousel-item col-lg-4 col-md-4 ">
 										<div class="card">
-											<img class="card-img-top" src="Images/Loïc COUTURES.png" alt="Card image cap" style="width:100%">
+											<img class="card-img-top" src="Images/LoCOUTURES.png" alt="Card image cap" style="width:100%">
 											<div class="card-body text-center Equal">
 												<h4 class="card-title" style="color:#4C5866; font-weight:bold">Loïc COUTURES</h4>
 												<p class="card-text"><small class="text-muted">CFO TechAngel</small>
